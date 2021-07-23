@@ -30,12 +30,18 @@ nnoremap <leader>vs :vsp<CR>
 nnoremap <silent> // :noh<CR>
 
 "Prettier
-nnoremap <leader>p : :CocCommand prettier.formatFile<CR>
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+vmap <leader>p  :Format<CR>
+nmap <leader>p  :Format <CR>
 
-"Keys
+"Save
 nnoremap <leader>s :w<CR>
+
+"Charge Vimrc
 nnoremap <F5> :source $MYVIMRC<CR>
 
-:nnoremap <space>e :CocCommand explorer<CR>
+"Open Explorer
+nnoremap <space>e :CocCommand explorer<CR>
 
+"Telescope
 nnoremap <leader>, <cmd>Telescope find_files<cr>

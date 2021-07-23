@@ -1,7 +1,15 @@
 {
   "explorer.keyMappings.global": {
-    "i": false,
- "coc.preferences.formatOnSaveFiletypes": ["css", "markdown","tsx","scss","html","js"],
+    "i": true,
+    "coc.preferences.formatOnSaveFiletypes": [
+      "css",
+      "markdown",
+      "tsx",
+      "scss",
+      "html",
+      "js",
+      "dart"
+    ],
     "*": "toggleSelection",
     "<tab>": "actionMenu",
 
@@ -77,7 +85,10 @@
     "[c": ["wait", "markPrev:git"],
     "]c": ["wait", "markNext:git"],
     "<<": "gitStage",
-    ">>": "gitUnstage",
-    "rpc.buttonActiveLabel": "Go to Repository"
-  }
+    ">>": "gitUnstage"
+  },
+  "explorer.icon.enableNerdfont": true,
+  "flutter.sdk.searchPaths": [
+      "~/.flutter/"
+      ]
 }
