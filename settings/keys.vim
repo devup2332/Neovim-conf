@@ -1,4 +1,3 @@
-
 "Silence arrow keys
 noremap <up> <nop>
 noremap <down> <nop>
@@ -12,10 +11,8 @@ nnoremap <silent> <up> :resize +5<CR>
 nnoremap <silent> <down> :resize -5<CR>
 
 "Terminal Split
-vnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
-nnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
-vnoremap <C-\> :split<CR>:ter<CR>:resize 15<CR>
-nnoremap <C-\> :split<CR>:ter<CR>:resize 15<CR>
+tnoremap <Esc> <C-\><C-n>
+nnoremap <c-t> :CocCommand terminal.Toggle<CR>
 
 "Move to net buffer
 nnoremap <tab> :bnext<CR>
@@ -45,3 +42,4 @@ nnoremap <space>e :CocCommand explorer<CR>
 
 "Telescope
 nnoremap <leader>, <cmd>Telescope find_files<cr>
+nnoremap <leader>. <cmd>Telescope media_files<cr>

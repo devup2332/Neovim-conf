@@ -88,7 +88,12 @@
     ">>": "gitUnstage"
   },
   "explorer.icon.enableNerdfont": true,
-  "flutter.sdk.searchPaths": [
-      "~/.flutter/"
-      ]
+  "flutter.sdk.searchPaths": ["~/.flutter/"],
+  "terminal.REPLMappings": {
+      "c": "cling",
+      "cpp": "cling",
+      "javascript": "node",
+      "typescript": "ts-node",
+      "python": "python"
+  }
 }

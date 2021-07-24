@@ -19,10 +19,12 @@ Plug 'tomasiser/vim-code-dark'
 Plug 'https://github.com/dunstontc/vim-vscode-theme'
 Plug 'https://github.com/joshdick/onedark.vim'
 Plug 'https://github.com/dracula/vim'
+Plug 'ghifarit53/tokyonight-vim'
 Plug 'ayu-theme/ayu-vim'
 Plug 'christianchiarulli/nvcode-color-schemes.vim'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+Plug 'bluz71/vim-moonfly-colors'
 
 "LPS
 Plug 'neovim/nvim-lspconfig'
@@ -31,6 +33,7 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-media-files.nvim'
 
 "Search
 Plug 'dyng/ctrlsf.vim'
@@ -42,6 +45,8 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'Neevash/awesome-flutter-snippets'
 
+"Comments"
+Plug 'https://github.com/terrortylor/nvim-comment'
 
 call plug#end()
 
