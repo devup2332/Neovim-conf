@@ -1,6 +1,6 @@
 {
   "explorer.keyMappings.global": {
-    "i": true,
+    "i": "true",
     "coc.preferences.formatOnSaveFiletypes": [
       "css",
       "markdown",
@@ -28,7 +28,7 @@
     ],
     "o": ["wait", "expanded?", "collapse", "expand"],
     "<cr>": ["wait", "expandable?", "cd", "open"],
-    "e": "open",
+    "e": ["wait", "expandable?", "expand", "open", "quit"],
     "s": "open:split",
     "E": "open:vsplit",
     "t": "open:tab",

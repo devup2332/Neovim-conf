@@ -18,7 +18,8 @@ nnoremap <c-t> :CocCommand terminal.Toggle<CR>
 nnoremap <tab> :bnext<CR>
 
 "Close actual buffer
-nnoremap <leader>qq :bdelete<CR>
+nnoremap <leader>k :bdelete<CR>
+nnoremap <leader>l :w! <bar> %bd <bar> e# <bar> bd# <CR>
 
 "Open vertical split
 nnoremap <leader>vs :vsp<CR>
@@ -28,8 +29,7 @@ nnoremap <silent> // :noh<CR>
 
 "Prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
-vmap <leader>p  :Format<CR>
-nmap <leader>p  :Format <CR>
+nnoremap <leader>p  :CocCommand prettier.formatFile<CR>
 
 "Save
 nnoremap <leader>s :w<CR>
@@ -42,4 +42,5 @@ nnoremap <space>e :CocCommand explorer<CR>
 
 "Telescope
 nnoremap <leader>, <cmd>Telescope find_files<cr>
+nnoremap <leader>- <cmd>Telescope live_grep<cr>
 nnoremap <leader>. <cmd>Telescope media_files<cr>

@@ -11,8 +11,8 @@ set noerrorbells "this disable the error bells because is very annoying
 set sw=4 "this set the tabs are 4 spaces
 set expandtab
 set smartindent "this saves work to you to indent your code
+set nowrap
 
-"Shoe line numbers. When you enable the number line it have space at the left.
 "I want the less space as possible.
 set number
 set rnu
@@ -28,8 +28,6 @@ set undofile
 "set incremental search and ignore capital words
 set incsearch
 set ignorecase
-
-"set the cursorline and a column
 
 "this sets the directions of the splits
 set splitbelow

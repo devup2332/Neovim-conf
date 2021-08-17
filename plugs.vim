@@ -1,11 +1,10 @@
 
 call plug#begin('~/.nvim/plugged')
 "Coc
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
-
-"Coc Explorer
+"Transparent
+Plug 'kjwon15/vim-transparent'
 
 "Airline
 Plug 'vim-airline/vim-airline'
@@ -25,6 +24,10 @@ Plug 'christianchiarulli/nvcode-color-schemes.vim'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'bluz71/vim-moonfly-colors'
+Plug 'https://github.com/morhetz/gruvbox'
+Plug 'overcache/NeoSolarized'
+Plug 'Rigellute/rigel'
+Plug 'https://github.com/evturn/cosmic-barf'
 
 "LPS
 Plug 'neovim/nvim-lspconfig'
@@ -45,8 +48,10 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'Neevash/awesome-flutter-snippets'
 
-"Comments"
-Plug 'https://github.com/terrortylor/nvim-comment'
+"React
+Plug 'SirVer/ultisnips'
+Plug 'mlaursen/vim-react-snippets'
+Plug 'mxw/vim-jsx'
 
 call plug#end()
 
