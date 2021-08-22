@@ -1,15 +1,6 @@
 {
   "explorer.keyMappings.global": {
     "i": "true",
-    "coc.preferences.formatOnSaveFiletypes": [
-      "css",
-      "markdown",
-      "tsx",
-      "scss",
-      "html",
-      "js",
-      "dart"
-    ],
     "*": "toggleSelection",
     "<tab>": "actionMenu",
 

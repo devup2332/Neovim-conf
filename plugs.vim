@@ -1,7 +1,7 @@
 
 call plug#begin('~/.nvim/plugged')
 "Coc
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "Transparent
 Plug 'kjwon15/vim-transparent'
@@ -28,6 +28,8 @@ Plug 'https://github.com/morhetz/gruvbox'
 Plug 'overcache/NeoSolarized'
 Plug 'Rigellute/rigel'
 Plug 'https://github.com/evturn/cosmic-barf'
+Plug 'https://github.com/jnurmine/Zenburn'
+Plug 'embark-theme/vim', { 'as': 'embark' }
 
 "LPS
 Plug 'neovim/nvim-lspconfig'
@@ -53,7 +55,10 @@ Plug 'SirVer/ultisnips'
 Plug 'mlaursen/vim-react-snippets'
 Plug 'mxw/vim-jsx'
 
+"Prettier
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+
+"Git
+Plug 'https://github.com/tpope/vim-fugitive'
 call plug#end()
-
-
 

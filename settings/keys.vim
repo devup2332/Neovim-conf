@@ -27,10 +27,6 @@ nnoremap <leader>vs :vsp<CR>
 "Clear results
 nnoremap <silent> // :noh<CR>
 
-"Prettier
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-nnoremap <leader>p  :CocCommand prettier.formatFile<CR>
-
 "Save
 nnoremap <leader>s :w<CR>
 
@@ -44,3 +40,7 @@ nnoremap <space>e :CocCommand explorer<CR>
 nnoremap <leader>, <cmd>Telescope find_files<cr>
 nnoremap <leader>- <cmd>Telescope live_grep<cr>
 nnoremap <leader>. <cmd>Telescope media_files<cr>
+
+"Prettier
+nnoremap <leader>p :Prettier<CR>
+
