@@ -44,3 +44,6 @@ nnoremap <leader>. <cmd>Telescope media_files<cr>
 "Prettier
 nnoremap <leader>p :Prettier<CR>
 
+"Git Fugitive
+nnoremap <leader>g :Git add .<CR>
+nnoremap <leader>c :Git commit<CR>
