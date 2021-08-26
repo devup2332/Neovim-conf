@@ -15,9 +15,9 @@ source ~/.config/nvim/plugs.vim
 "source ~/.config/nvim/themes/neo-solarized.vim
 "source ~/.config/nvim/themes/rigel.vim
 "source ~/.config/nvim/themes/cosmo.vim
-"source ~/.config/nvim/themes/ayu.vim
+source ~/.config/nvim/themes/ayu.vim
 "source ~/.config/nvim/themes/zenburn.vim
-source ~/.config/nvim/themes/embark.vim
+"source ~/.config/nvim/themes/embark.vim
 
 "Plug-settings"
 source ~/.config/nvim/plug-settings/coc.vim

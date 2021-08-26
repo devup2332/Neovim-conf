@@ -7,12 +7,16 @@ set encoding=UTF-8
 set clipboard=unnamedplus "to set the main clipboard to vim. It needs xclip o xcel. Other value is unnamed
 set noerrorbells "this disable the error bells because is very annoying
 
+set wrap
+highlight ColoColumn ctermbg=0 guibg=lightgrey
+set cursorline
+set tw=120
+
 "to set the tabs
 set sw=4 "this set the tabs are 4 spaces
 set signcolumn=yes
 set expandtab
 set smartindent "this saves work to you to indent your code
-set nowrap
 
 "I want the less space as possible.
 set number

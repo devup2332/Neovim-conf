@@ -47,3 +47,4 @@ nnoremap <leader>p :Prettier<CR>
 "Git Fugitive
 nnoremap <leader>g :Git add .<CR>
 nnoremap <leader>c :Git commit<CR>
+nnoremap <leader>gp :Git push<CR>
