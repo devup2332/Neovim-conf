@@ -4,7 +4,7 @@ call plug#begin('~/.nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "Transparent
-Plug 'kjwon15/vim-transparent'
+Plug 'https://github.com/xiyaowong/nvim-transparent'
 
 "Airline
 Plug 'vim-airline/vim-airline'
@@ -30,6 +30,8 @@ Plug 'Rigellute/rigel'
 Plug 'https://github.com/evturn/cosmic-barf'
 Plug 'https://github.com/jnurmine/Zenburn'
 Plug 'embark-theme/vim', { 'as': 'embark' }
+Plug 'haishanh/night-owl.vim'
+Plug 'pacokwon/onedarkhc.vim'
 
 "LPS
 Plug 'neovim/nvim-lspconfig'

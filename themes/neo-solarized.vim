@@ -10,7 +10,7 @@ let g:neosolarized_visibility = "normal"
 
 " I make vertSplitBar a transparent background color. If you like the origin
 " solarized vertSplitBar style more, set this value to 0.
-let g:neosolarized_vertSplitBgTrans = 1
+let g:neosolarized_vertSplitBgTrans = 1 
 
 " If you wish to enable/disable NeoSolarized from displaying bold, underlined
 " or italicized" typefaces, simply assign 1 or 0 to the appropriate variable.
