@@ -33,7 +33,7 @@ local on_attach = function(client, bufnr)
 end
 
 
-local servers = {"tsserver","dartls","pylsp","jsonls" }
+local servers = {"tsserver","pylsp","jsonls","dartls" }
 
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
@@ -43,10 +43,4 @@ for _, lsp in ipairs(servers) do
     }
   }
 end
-
-require'lspconfig'.tsserver.setup{}
-require'lspconfig'.dartls.setup{}
-require'lspconfig'.pylsp.setup{}
-require'lspconfig'.jsonls.setup{}
-
 EOF

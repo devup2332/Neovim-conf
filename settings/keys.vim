@@ -34,7 +34,7 @@ nnoremap <leader>s :w<CR>
 nnoremap <F5> :source $MYVIMRC<CR>
 
 "Open Explorer
-nnoremap <space>e :CocCommand explorer<CR>
+nnoremap <silent>ee :CocCommand explorer<CR>
 
 "Telescope
 nnoremap <leader>, <cmd>Telescope find_files<cr>
@@ -48,3 +48,6 @@ nnoremap <leader>p :Prettier<CR>
 nnoremap <leader>g :Git add .<CR>
 nnoremap <leader>c :Git commit<CR>
 nnoremap <leader>gp :Git push<CR>
+
+"Coc-flutter
+nnoremap <silent>LL :CocCommand flutter.dev.openDevLog<CR>

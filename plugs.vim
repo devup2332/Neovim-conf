@@ -62,5 +62,8 @@ Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
 "Git
 Plug 'https://github.com/tpope/vim-fugitive'
+
+"Commenter
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
