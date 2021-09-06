@@ -14,6 +14,9 @@ nnoremap <silent> <down> :resize -5<CR>
 tnoremap <Esc> <C-\><C-n>
 nnoremap <c-t> :CocCommand terminal.Toggle<CR>
 
+"Quirt Nvim
+nnoremap <silent>qq :q<CR>
+
 "Move to net buffer
 nnoremap <tab> :bnext<CR>
 
