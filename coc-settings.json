@@ -1,5 +1,8 @@
 {
     "explorer.icon.enableNerdfont": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "~/.local/bin/autopep8",
+    "python.venvPath": "~/Projects/fullstack/chat-app/backend/.env",
     "languageserver": {
         "dart": {
             "command": "dart",
@@ -12,7 +15,7 @@
                 "coc.nvim"
             ],
             "filetypes": ["dart"],
-            "trace.server": "verbose",
+            "trace.server": "verbose"
         }
     }
 }

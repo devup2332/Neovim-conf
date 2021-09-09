@@ -7,8 +7,7 @@ source ~/.config/nvim/plugs.vim
 "Keys"
 source ~/.config/nvim/settings/keys.vim
 
-
-"Theme
+"Themes"
 "source ~/.config/nvim/themes/nv-code.vim
 "source ~/.config/nvim/themes/material.vim
 "source ~/.config/nvim/themes/dracula.vim
@@ -21,12 +20,11 @@ source ~/.config/nvim/settings/keys.vim
 "source ~/.config/nvim/themes/cosmo.vim
 "source ~/.config/nvim/themes/ayu.vim
 "source ~/.config/nvim/themes/zenburn.vim
-source ~/.config/nvim/themes/embark.vim
 "source ~/.config/nvim/themes/night-owl.vim
+source ~/.config/nvim/themes/embark.vim
 
 "Plug-settings"
 source ~/.config/nvim/plug-settings/coc-git.vim
-source ~/.config/nvim/plug-settings/coc-explorer.vim
 source ~/.config/nvim/plug-settings/telescope.vim
 source ~/.config/nvim/plug-settings/airline.vim
 source ~/.config/nvim/plug-settings/lsp.vim

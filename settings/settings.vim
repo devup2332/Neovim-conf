@@ -1,4 +1,3 @@
-
 "set the map leader
 let mapleader = " "
 

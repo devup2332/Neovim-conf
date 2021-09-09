@@ -1,7 +1,7 @@
 
 call plug#begin('~/.nvim/plugged')
 "Coc
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release','do': 'yarn install --frozen-lockfile'}
 
 "Transparent
 Plug 'https://github.com/xiyaowong/nvim-transparent'

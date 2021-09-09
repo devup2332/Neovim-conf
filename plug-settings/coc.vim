@@ -3,7 +3,7 @@ let g:coc_global_extensions = [
     \ 'coc-json', 
     \ 'coc-git',
     \ 'coc-tsserver',
-    \ 'coc-python',
+    \ 'coc-pyright',
     \ 'coc-explorer',
     \ 'coc-emmet',
     \ 'coc-flutter',
@@ -88,8 +88,8 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 nmap <leader>rn <Plug>(coc-rename)
 
 " Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+xmap <leader>f  <Plug>(coc-format)
+nmap <leader>f  <Plug>(coc-format)
 
 augroup mygroup
   autocmd!
