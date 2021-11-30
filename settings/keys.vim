@@ -37,15 +37,12 @@ nnoremap <leader>s :w<CR>
 nnoremap <F5> :source $MYVIMRC<CR>
 
 "Open Explorer
-nnoremap <silent>ee :CocCommand explorer<CR>
+nnoremap <silent>mm :CocCommand explorer<CR>
 
 "Telescope
 nnoremap <leader>, <cmd>Telescope find_files<cr>
-nnoremap <leader>- <cmd>Telescope live_grep<cr>
+nnoremap <leader>/ <cmd>Telescope live_grep<cr>
 nnoremap <leader>. <cmd>Telescope media_files<cr>
-
-"Prettier
-nnoremap <leader>p :Prettier<CR>
 
 "Git Fugitive
 nnoremap <leader>g :Git add .<CR>

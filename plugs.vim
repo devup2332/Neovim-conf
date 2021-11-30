@@ -32,6 +32,7 @@ Plug 'https://github.com/jnurmine/Zenburn'
 Plug 'embark-theme/vim', { 'as': 'embark' }
 Plug 'haishanh/night-owl.vim'
 Plug 'pacokwon/onedarkhc.vim'
+Plug 'mangeshrex/uwu.vim'
 
 "LPS
 Plug 'neovim/nvim-lspconfig'

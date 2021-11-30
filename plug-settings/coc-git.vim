@@ -1,4 +1,3 @@
-
 set statusline^=%{get(g:,'coc_git_status','')}%{get(b:,'coc_git_status','')}%{get(b:,'coc_git_blame','')}
 
 " lightline
