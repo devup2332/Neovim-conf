@@ -8,7 +8,6 @@ let g:coc_global_extensions = [
     \ 'coc-emmet',
     \ 'coc-flutter',
     \ 'coc-snippets',
-    \ 'coc-prettier',
     \ 'coc-pairs',
     \ 'coc-discord-rpc',
     \ 'coc-css',
@@ -87,10 +86,6 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
-
-" Formatting selected code.
-xmap <leader>f  <Plug>(coc-format)
-nmap <leader>f  <Plug>(coc-format)
 
 augroup mygroup
   autocmd!

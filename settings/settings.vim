@@ -6,7 +6,7 @@ set encoding=UTF-8
 set clipboard=unnamedplus "to set the main clipboard to vim. It needs xclip o xcel. Other value is unnamed
 set noerrorbells "this disable the error bells because is very annoying
 
-set nowrap
+set wrap
 highlight ColoColumn ctermbg=0 guibg=lightgrey
 set cursorline
 set tw=120
