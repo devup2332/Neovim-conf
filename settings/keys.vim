@@ -31,7 +31,7 @@ nnoremap <leader>vs :vsp<CR>
 nnoremap <silent> // :noh<CR>
 
 "Save
-nnoremap <leader>s :w<CR>
+nnoremap <leader>s :w ++ff=<CR>
 
 "Charge Vimrc
 nnoremap <F5> :source $MYVIMRC<CR>

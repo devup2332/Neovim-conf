@@ -3,7 +3,7 @@ let mapleader = " "
 
 set mouse=a "this enable the mouse compatibility
 set encoding=UTF-8
-set clipboard=unnamedplus "to set the main clipboard to vim. It needs xclip o xcel. Other value is unnamed
+set clipboard+=unnamedplus "to set the main clipboard to vim. It needs xclip o xcel. Other value is unnamed
 set noerrorbells "this disable the error bells because is very annoying
 
 set wrap
