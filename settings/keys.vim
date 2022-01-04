@@ -51,6 +51,3 @@ nnoremap <leader>gp :Git push<CR>
 
 "Coc-flutter
 nnoremap <silent>LL :CocCommand flutter.dev.openDevLog<CR>
-
-"Prettier
-nnoremap <leader>f :PrettierAsync<CR>
