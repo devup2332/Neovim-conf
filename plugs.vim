@@ -33,6 +33,10 @@ Plug 'embark-theme/vim', { 'as': 'embark' }
 Plug 'haishanh/night-owl.vim'
 Plug 'pacokwon/onedarkhc.vim'
 Plug 'mangeshrex/uwu.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
+Plug 'rafalbromirski/vim-aurora'
+Plug 'https://github.com/Zabanaa/neuromancer.vim.git'
 
 "LPS
 Plug 'neovim/nvim-lspconfig'
