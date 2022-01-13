@@ -31,7 +31,7 @@ nnoremap <leader>vs :vsp<CR>
 nnoremap <silent> // :noh<CR>
 
 "Save
-nnoremap <leader>s :w ++ff=<CR>
+nnoremap <leader>s :w ++ff=unix<CR>
 
 "Charge Vimrc
 nnoremap <F5> :source $MYVIMRC<CR>
@@ -40,7 +40,7 @@ nnoremap <F5> :source $MYVIMRC<CR>
 nnoremap <silent>mm :CocCommand explorer<CR>
 
 "Telescope
-nnoremap <leader>, <cmd>Telescope find_files<cr>
+nnoremap <leader>, <cmd>Telescope find_files hidden=true<cr>
 nnoremap <leader>/ <cmd>Telescope live_grep<cr>
 nnoremap <leader>. <cmd>Telescope media_files<cr>
 
