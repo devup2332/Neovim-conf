@@ -42,7 +42,9 @@ nnoremap <silent>mm :CocCommand explorer<CR>
 "Telescope
 nnoremap <leader>, <cmd>Telescope find_files hidden=true<cr>
 nnoremap <leader>/ <cmd>Telescope live_grep<cr>
+if has('unix')
 nnoremap <leader>. <cmd>Telescope media_files<cr>
+endif
 
 "Git Fugitive
 nnoremap <leader>g :Git add .<CR>
