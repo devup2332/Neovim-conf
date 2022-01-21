@@ -31,8 +31,11 @@ nnoremap <leader>vs :vsp<CR>
 nnoremap <silent> // :noh<CR>
 
 "Save
-nnoremap <leader>s :w ++ff=unix<CR>
-
+if has("win32") 
+    nnoremap <leader>s :w ++ff=dos<CR>
+else
+    nnoremap <leader>s :w ++ff=unix<CR>
+endif
 "Charge Vimrc
 nnoremap <F5> :source $MYVIMRC<CR>
 
