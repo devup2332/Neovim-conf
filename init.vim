@@ -30,8 +30,8 @@ if has("win64") || has("win32") || has("win16")
 
     "Plug-settings"
     source ~\AppData\Local\nvim\plug-settings\coc-git.vim
-    source ~\AppData\Local\nvim\plug-settings\telescope.vim
     source ~\AppData\Local\nvim\plug-settings\airline.vim
+    source ~\AppData\Local\nvim\plug-settings\telescope.vim
     source ~\AppData\Local\nvim\plug-settings\lsp.vim
     source ~\AppData\Local\nvim\plug-settings\transparent.vim
     source ~\AppData\Local\nvim\plug-settings\indent.vim

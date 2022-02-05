@@ -43,10 +43,12 @@ nnoremap <F5> :source $MYVIMRC<CR>
 nnoremap <silent>mm :CocCommand explorer<CR>
 
 "Telescope
-nnoremap <leader>, <cmd>Telescope find_files hidden=true<cr>
-nnoremap <leader>/ <cmd>Telescope live_grep<cr>
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope git_files<cr>
+nnoremap <leader>fl <cmd>Telescope live_grep<cr>
+
 if has('unix')
-nnoremap <leader>. <cmd>Telescope media_files<cr>
+    nnoremap <leader>fm <cmd>Telescope media_files<cr>
 endif
 
 "Git Fugitive
