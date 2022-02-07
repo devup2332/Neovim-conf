@@ -27,7 +27,7 @@ require('telescope').setup{
         mirror = false,
       },
     },
-    file_ignore_patterns = { "node_modules","__pycache__","migrations*" , ".undoir"},
+    file_ignore_patterns = { "node_modules","__pycache__","migrations" , ".undoir"},
     winblend = 0,
     border = {},
     borderchars = { '─', '│', '─', '│', '╭', '╮', '╯', '╰' },
