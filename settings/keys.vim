@@ -32,7 +32,7 @@ nnoremap <silent> // :noh<CR>
 
 "Save
 if has("win32") 
-    nnoremap <leader>s :w ++ff=unix<CR>
+    nnoremap <leader>s :w ++ff=dos<CR>
 else
     nnoremap <leader>s :w ++ff=unix<CR>
 endif
@@ -43,8 +43,8 @@ nnoremap <F5> :source $MYVIMRC<CR>
 nnoremap <silent>mm :CocCommand explorer<CR>
 
 "Telescope
-nnoremap <leader>ff <cmd>Telescope find_files hidden=true<cr>
-nnoremap <leader>fg <cmd>Telescope git_files<cr>
+nnoremap <leader>ff <cmd>Telescope find_files hidden=true no_ignore=true<cr>
+nnoremap <leader>fg <cmd>Telescope git_files hidden=true<cr>
 nnoremap <leader>fl <cmd>Telescope live_grep<cr>
 
 if has('unix')
