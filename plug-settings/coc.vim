@@ -31,6 +31,7 @@ let g:coc_global_extensions = [
     \ 'coc-pairs',
     \ 'coc-discord-rpc',
     \ 'coc-css',
+    \ 'coc-tabnine',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
