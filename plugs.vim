@@ -37,9 +37,13 @@ Plug 'sheerun/vim-polyglot'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'rafalbromirski/vim-aurora'
 Plug 'https://github.com/Zabanaa/neuromancer.vim.git'
+Plug 'https://github.com/tomasr/molokai'
+Plug 'https://github.com/sainnhe/sonokai'
 
 "LPS
 Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/nvim-compe'
+Plug 'https://github.com/tell-k/vim-autopep8'
 
 "Telescope
 Plug 'nvim-lua/popup.nvim'

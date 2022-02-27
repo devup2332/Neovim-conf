@@ -27,6 +27,8 @@ if has("win64") || has("win32") || has("win16")
     "source ~\AppData\Local\nvim\themes\aurora.vim
     "source ~\AppData\Local\nvim\themes\neuromancer.vim
     "source ~\AppData\Local\nvim\themes\night-owl.vim
+    "source ~\AppData\Local\nvim\themes\sonokay.vim
+    "source ~\AppData\Local\nvim\themes\molokay.vim
 
     "Plug-settings"
     source ~\AppData\Local\nvim\plug-settings\coc-git.vim
@@ -36,7 +38,8 @@ if has("win64") || has("win32") || has("win16")
     source ~\AppData\Local\nvim\plug-settings\transparent.vim
     source ~\AppData\Local\nvim\plug-settings\indent.vim
     source ~\AppData\Local\nvim\plug-settings\dart.vim
-    source ~\AppData\Local\nvim\plug-settings\coc.vim
+    source ~\AppData\Local\nvim\plug-settings\compe.vim
+    "source ~\AppData\Local\nvim\plug-settings\coc.vim
 else
     "Settings"
     source ~/.config/nvim/settings/settings.vim
@@ -75,6 +78,6 @@ else
     source ~/.config/nvim/plug-settings/transparent.vim
     source ~/.config/nvim/plug-settings/indent.vim
     source ~/.config/nvim/plug-settings/dart.vim
-    source ~/.config/nvim/plug-settings/coc.vim
+    "source ~/.config/nvim/plug-settings/coc.vim
 
 endif

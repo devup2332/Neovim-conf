@@ -30,8 +30,8 @@ let g:coc_global_extensions = [
     \ 'coc-snippets',
     \ 'coc-pairs',
     \ 'coc-discord-rpc',
-    \ 'coc-css',
-    \ 'coc-tabnine',
+    \ 'coc-css' ,
+    \ 'coc-graphql' 
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
